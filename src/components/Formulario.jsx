@@ -49,7 +49,7 @@ const Formulario = () => {
     localStorage.setItem('colors', JSON.stringify(colorActualizado));
     setInpuntColor('');
 
-    // Mostrar SweetAlert de éxito con animación
+   
     Swal.fire({
       icon: 'success',
       title: '¡Éxito!',
@@ -60,8 +60,8 @@ const Formulario = () => {
       hideClass: {
         popup: 'animate__animated animate__fadeOutUp',
       },
-      timer: 2000, // 3 segundos
-      showConfirmButton: false, // No mostrar botón "OK"
+      timer: 2000,
+      showConfirmButton: false, 
     });
   }
 
