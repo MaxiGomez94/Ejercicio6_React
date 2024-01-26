@@ -1,4 +1,4 @@
-import { ListGroup, Button, Card } from "react-bootstrap";
+import {Button, Card } from "react-bootstrap";
 
 const ListaColores = ({ colorsList, handleEliminarColor }) => {
   return (
