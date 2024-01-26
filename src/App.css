@@ -9,6 +9,6 @@ body{
   display: flex;
   flex-direction: column;
 }
-Container{
+main{
   flex-grow: 1;
 }
