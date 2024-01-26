@@ -24,16 +24,16 @@ const Formulario = () => {
     if (!inputColor.trim() || !isColorValid) {
       
       Swal.fire({
-        icon: 'error',
-        title: '¡Error!',
-        text: 'Por favor, ingrese un color válido.',
+        icon: 'warning',
+        title: '¡Fijate Bien !',
+        text: 'Ingresa un color en "English", vuelve intentarlo.',
         showClass: {
           popup: 'animate__animated animate__shakeX',
         },
         hideClass: {
           popup: 'animate__animated animate__fadeOut',
         },
-        timer: 2000,
+        timer: 4000,
         showConfirmButton: false,
       });
       return;
@@ -78,9 +78,7 @@ const Formulario = () => {
           <Form.Control 
             className='fw-bold'
             type="text" 
-            placeholder="Ingrese un Color!" 
-            pattern="^[^\d]{3,20}$"
-            title="Debe ingresar un mínimo de 3 y un máximo de 20 caracteres, sin incluir números."
+            placeholder="Ingrese un Color!"
             onChange={(e) => setInpuntColor(e.target.value)} 
             value={inputColor} 
           />
@@ -96,3 +94,4 @@ const Formulario = () => {
 }
 
 export default Formulario;
+
