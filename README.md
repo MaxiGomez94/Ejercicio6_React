@@ -10,3 +10,5 @@ contiene un validacion para que solo se puedan agregar colores validos unicament
 
 
 <img src="./src/assets/mi proyecto.PNG" alt="" />
+
+https://ejercicio6-react.vercel.app/
