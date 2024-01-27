@@ -26,7 +26,7 @@ const Formulario = () => {
       Swal.fire({
         icon: 'warning',
         title: '¡Fijate Bien !',
-        text: 'Ingresa un color en "English", vuelve intentarlo.',
+        text: 'Ingresa un color en "English", vuelve intentarlo!.',
         showClass: {
           popup: 'animate__animated animate__shakeX',
         },
