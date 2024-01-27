@@ -33,7 +33,7 @@ const Formulario = () => {
         hideClass: {
           popup: 'animate__animated animate__fadeOut',
         },
-        timer: 4000,
+        timer: 3000,
         showConfirmButton: false,
       });
       return;
